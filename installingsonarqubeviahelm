@@ -1,0 +1,3 @@
+helm upgrade --install sonarqube sonarqube/sonarqube --namespace sonarqube -f values. yaml
+helm install sonarqube sonarqube/sonarqube --namespace sonarqube -f values.yaml
+helm upgrade sonarqube sonarqube/sonarqube --namespace sonarqube -f values.yaml
